@@ -1,0 +1,185 @@
+/* GENERAL PAGE CSS */
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'times', Helvetica, sans-serif;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	font:'times', serif;
+	font-size: 70px;
+}
+
+h1, h2 {
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+.title {
+	margin-top:50px;
+}
+
+#four {
+
+}
+
+p.subtitle {
+	float: right;
+	padding-right: 140px;
+}
+
+
+
+/* TOPBAR CSS */
+#topbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#topbar img {
+	margin: 10px 20px;
+	width: 30px;
+	height: auto;
+}
+
+#topbar a {
+	float: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 20px;
+}
+
+#topbar a:hover { /* CSS for when you hover over topbar links */
+	border-bottom: 3px solid #000;
+	font-style: italic;
+}
+
+#prezi_player_uugd35-6q5ip {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+
+/* GENERAL SECTION CSS */
+.flex, .section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section {
+	height: 92%;
+	width: 92%;
+	padding: 4%;
+}
+
+
+
+
+/* SECTION ONE CSS */
+
+#one {
+	background-color: #fbfbfb;
+	color: #000;
+	flex-direction: column;
+}
+
+#one p {
+	font-size: 20px;
+}
+
+
+
+
+/* SECTION TWO CSS */
+
+#two {
+	background-color: #FFFFFF;
+}
+
+#two p{
+	font size: 20px;
+}
+
+/* SECTION THREE CSS */
+
+#three {
+	background-color: #eee;
+	flex-direction: column;
+}
+
+#three img {
+	height: 150px;
+	width: auto;
+	padding: 20px;
+}
+
+#three h2 {
+	color: #000;
+}
+
+
+
+
+/* SECTION FOUR CSS */
+#four {
+	background-color: #FFFFFF;
+	font color: #000;
+}
+
+.content {
+	width: 100%;
+}
+
+#four p {
+	font-size: 20px;
+}
+
+
+
+/* SECTION FIVE CSS */
+#five {
+	background-color: #fbfbfb;
+	color: #000;
+}
+
+#five h1 {
+	font-size: 60px;
+}
+
+#five p{
+	font-size: ;
+}
+
+/* SECTION SIX CSS */
+
+#six {
+	background-color: #FFF;
+	color: #000;
+}
+
+#prezi-div {
+	margin-left: 100px;
+}
+
