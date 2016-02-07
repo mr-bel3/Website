@@ -163,14 +163,16 @@ p.subtitle {
 #five {
 	background-color: #fbfbfb;
 	color: #000;
+	
 }
 
 #five h1 {
 	font-size: 60px;
+	padding: 100px;
 }
 
 #five p{
-	font-size: ;
+	font-size: 20px;
 }
 
 /* SECTION SIX CSS */
