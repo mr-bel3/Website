@@ -52,7 +52,19 @@
     <a name="form">
       <div id="three" class="section">
         <h1>Form</h1>
-        <p>Fill out the form to become a mentor</p>
+
+        <!-- FORM INFO -->
+        <form id="myform" name="myform" action="{{ url_for('form') }}" method="post">
+  <a>Name:</a><input id="name" type="text" name="name" placeholder="Name"><br>
+  <a>Major:</a><input id="major" type="text" name="major" placeholder="Major"><br>
+  <a>Math or Reading:</a><input id="email" type="email" name="email" placeholder="Email"><br>
+  <a>Male or Female</a><input id="email" type="email" name="email" placeholder="Email"><br>
+  <a>Ethinicity</a><input id="email" type="email" name="email" placeholder="Email"><br>
+  <a>Days Available</a><input id="email" type="email" name="email" placeholder="Email"><br>
+  <input type="submit" />
+  <!-- FORM INFO -->
+  
+</form>
       </div>
     </a>
 
